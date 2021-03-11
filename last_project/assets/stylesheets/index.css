@@ -1,0 +1,451 @@
+body {
+  background-color: rgb(238, 238, 238);
+  overflow-x: hidden;
+}
+.container {
+  position: absolute;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  left: 0px;
+  top: 0%;
+  right: -100px;
+  font-size: 12px;
+}
+.p_div {
+  margin-left: 10px;
+}
+.p_div2 {
+  margin-left: 1300px;
+  display: inline-flex;
+}
+.register {
+  margin-left: 1500px;
+  display: inline-flex;
+}
+.heart {
+  margin-top: 13%;
+}
+.user {
+  margin-top: 13%;
+}
+.container2 {
+  display: inline-flex;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.nav-items {
+  display: inline-flex;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 25px;
+}
+.space {
+  margin-left: 50px;
+}
+.space1 {
+  margin-left: 50px;
+}
+.search {
+  margin-top: 20px;
+}
+.cart {
+  margin-top: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #000000;
+  padding: 5px;
+  width: 50%;
+  margin: 5px auto;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #ffffff;
+  padding: 5px;
+  width: 50%;
+  border: solid 1px rgb(189, 189, 189);
+  margin: 5px auto;
+}
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.grid-item {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 920px;
+  height: 600px;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: #ffffff00;
+  color: black;
+  padding: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.grid-item3:hover {
+  cursor: pointer;
+}
+.collectors {
+  position: absolute;
+  display: inline-flex;
+  margin: -5px auto;
+  text-align: center;
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+  left: 0px;
+  margin-right: -20px;
+}
+.collect_heading {
+  text-align: center;
+  margin-top: 100px;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+hr {
+  width: 50%;
+  color: rgb(189, 189, 189);
+}
+.line_div {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: -10px;
+  margin-right: -20px;
+  border: solid 1px rgb(189, 189, 189);
+}
+.car_items {
+  margin-top: 60px;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.collectors2 {
+  position: absolute;
+  display: inline-flex;
+  margin: -5px auto;
+  text-align: center;
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+  left: 0px;
+  margin-right: -20px;
+}
+.collect_heading2 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.line_div2 {
+  background-color: white;
+  margin-top: 550px;
+  margin-left: -10px;
+  margin-right: -20px;
+  border: solid 1px rgb(189, 189, 189);
+}
+.collectors3 {
+  position: absolute;
+  display: inline-flex;
+  margin: -5px auto;
+  text-align: center;
+  background-color: white;
+  font-family: "Bebas Neue", cursive;
+  left: 0px;
+  margin-right: -20px;
+  height: 700px;
+}
+.collect_heading3 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.line_div3 {
+  background-color: white;
+  margin-top: 450px;
+  margin-left: -10px;
+  margin-right: -20px;
+  border: solid 1px rgb(189, 189, 189);
+}
+.wrapper {
+  background-color: rgb(238, 238, 238);
+  margin-top: 800px;
+  text-align: center;
+  height: 600px;
+  font-family: "Bebas Neue", cursive;
+}
+.deal1 {
+  margin-left: 50px;
+}
+.deal2 {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.wrapper_block {
+  display: inline-flex;
+  text-align: left;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 50%,
+    rgba(251, 251, 251, 0) 100%
+  );
+}
+.spider {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 15px;
+}
+.spider2 {
+  color: grey;
+  font-size: 15px;
+}
+.deal_heading {
+  font-size: 50px;
+}
+.testimonials {
+  display: inline-flex;
+  background-color: white;
+  text-align: center;
+  margin-top: -5px;
+  margin-left: -10px;
+  margin-right: -20px;
+  height: 600px;
+}
+.test-items {
+  margin-top: 100px;
+}
+.collect_heading4 {
+  text-align: center;
+  margin-top: 100px;
+  color: #000000;
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.line_div4 {
+  background-color: white;
+  margin-left: -10px;
+  margin-right: -20px;
+  border: solid 1px rgb(189, 189, 189);
+}
+.test-subhead {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.logos {
+  display: inline-flex;
+  background-color: white;
+  margin-left: -10px;
+  margin-right: -20px;
+}
+.logo-img {
+  margin-left: 14%;
+}
+.new-hr {
+  background-color: white;
+  padding: 10px;
+  margin-right: -20px;
+  margin-left: -10px;
+}
+.new-hr2 {
+  background-color: white;
+  padding: 10px;
+  margin-top: -5px;
+  margin-left: -10px;
+  margin-right: -20px;
+  height: 100px;
+}
+.footer-container {
+  display: inline-flex;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  margin-left: 32%;
+}
+.footer-items {
+  display: inline-flex;
+  margin-left: 50px;
+}
+.first-footer {
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  left: 0px;
+  right: -100px;
+  font-size: 12px;
+  margin-top: 250px;
+}
+.icons {
+  display: inline-flex;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.logo1 {
+  margin-left: 32px;
+}
+.newsletter {
+  display: inline-flex;
+  margin-left: 100px;
+}
+.sign-par {
+  margin-left: 10px;
+  font-size: 15px;
+}
+.form1 {
+  display: inline-flex;
+  margin-left: 20px;
+  height: 40px;
+  margin-top: 12.5px;
+}
+input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+input[type="text"] {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 0px;
+}
+.last-footer {
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  left: 0px;
+  right: -100px;
+  font-size: 12px;
+  margin-top: 335px;
+}
+.copy-par {
+  margin-top: 30px;
+  margin-left: 300px;
+  font-size: 17px;
+}
+.span-les {
+  color: #4caf50;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+a:active {
+  text-decoration: none;
+  color: #4caf50;
+}
+#reglink {
+  color: white;
+}
+#reglink:hover {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .container {
+    display: none;
+  }
+  .grid-container3 {
+    display: inline-flex;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #ffffff00;
+    color: black;
+    padding: 5px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .grid-container {
+    display: none;
+    grid-template-columns: auto auto auto auto;
+    background-color: #000000;
+    width: 50%;
+    margin: 5px auto;
+  }
+  .grid-item {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Bebas Neue", cursive;
+  }
+  .grid-container2 {
+    display: none;
+  }
+  .collectors {
+    display: block;
+  }
+}

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/cart.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+    <title>THE TOY SHOP</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="p_div">
+        <p>Exotic Toys For BIG Boys</p>
+      </div>
+      <!-- <div class="p_div2">
+        <img src="heart.png" class="heart" width="20" height="20" />
+        &nbsp;&nbsp;
+        <p>Wishlist</p>
+      </div> -->
+      <div class="register">
+        <img src="user.png" class="user" width="20" height="20" />
+        &nbsp;&nbsp;
+        <p><a id="reglink" href="register.html">Register</a></p>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="grid-container3">
+      <div class="grid-item3"><img src="key.png" width="50" height="50" /></div>
+      <div class="grid-item3"><a href="index.html">HOME</a></div>
+      <div class="grid-item3"><a href="products.html">SHOP</a></div>
+      <div class="grid-item3"><a href="about.html">ABOUT</a></div>
+      <div class="grid-item3"><a href="contact.html">CONTACT</a></div>
+      <div class="grid-item3">
+       <img src="shopping-cart.png" width="30" height="30" onclick="document.getElementById('popup').style.display='block'" />
+      </div>
+    </div>
+
+    <div id="popup" class="modal">
+      <div
+        class="modal-content animate"
+      >
+        <div class="imgcontainer">
+          <span
+            onclick="document.getElementById('popup').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+          
+
+          <table class="container1" id="car_table">
+            <tr>
+              <th>Name</th>
+              <th>Price (R)</th>
+            </tr>
+      
+            <!-- <tr>
+              <td>${car.name}</td>
+              <td>${car.price}</td>
+          </tr> -->
+          </table>
+
+          <h5>REFRESH AFTER EACH ACTION</h5>
+
+
+        <div class="container1" style="background-color: #f1f1f1">
+          <button
+            type="button"
+            class="cancelbtn"
+            onclick="document.location='checkout.html'"
+          >
+            CHECK OUT
+          </button>
+          
+        </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">Luxury Sport</div>
+      <div class="grid-item">Super Saloons</div>
+      <div class="grid-item">Supercars</div>
+      <div class="grid-item">Hypercars</div>
+    </div>
+
+    <div class="cover">
+      <img src="car.jpg" width="920" height="600" />
+    </div>
+
+    <div class="grid-container2">
+      <div class="grid-item2">
+        <img src="shipping.png" width="30" height="30" />
+        <p>FREE SHIPPING</p>
+      </div>
+      <div class="grid-item2">
+        <img src="bag.png" width="30" height="30" />
+        <p>7-DAY MONEY BACK</p>
+      </div>
+      <div class="grid-item2">
+        <img src="price.png" width="30" height="30" />
+        <p>BEST EXOTIC CAR PRICES</p>
+      </div>
+      <div class="grid-item2">
+        <img src="secure.png" width="30" height="30" />
+        <p>SECURE PAYMENTS</p>
+      </div>
+    </div>
+
+    <div class="line_div">
+      <br />
+      <h1 class="collect_heading">COLLECTORS ITEMS</h1>
+      <hr />
+      <br />
+    </div>
+    <div class="collectors">
+      <div class="car_items">
+        <img src="bmw new.jpg" width="60%" />
+        <h1>BMW E30 M3</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-e30.html'">BUY NOW</button>
+      </div>
+      <div class="car_items">
+        <img src="e46 new.jpg" width="60%" />
+        <h1>BMW E46 M3 CSL</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-e46.html'">BUY NOW</button>
+      </div>
+      <div class="car_items">
+        <img src="lancia new.jpg" width="60%" />
+        <h1>LANCIA WRC RALLY</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-lancia.html'">BUY NOW</button>
+      </div>
+    </div>
+
+    <div class="line_div2">
+      <br />
+      <h1 class="collect_heading2">BEST SELLERS</h1>
+      <hr />
+      <br />
+    </div>
+    <div class="collectors2">
+      <div class="car_items">
+        <img src="p1 orange.jpg" width="80%" />
+      </div>
+      <div class="car_items">
+        <img src="superfast yellow2.jpg" width="80%" />
+      </div>
+      <div class="car_items">
+        <img src="svj green.jpg" width="80%" />
+      </div>
+    </div>
+
+    <div class="line_div3">
+      <br />
+      <h1 class="collect_heading3">EXCLUSIVE COLLECTION</h1>
+      <hr />
+      <br />
+    </div>
+    <div class="collectors3">
+      <div class="car_items">
+        <img src="h6.png" width="70%" />
+        <h1>HUYRAI H6 [NEW] CONCEPT</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-huyraih62.html'">BUY NOW</button>
+      </div>
+      <div class="car_items">
+        <img src="h62.png" width="73%" />
+        <h1>HUYRAI H6 CONCEPT</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-huyraih6.html'">BUY NOW</button>
+      </div>
+      <div class="car_items">
+        <img src="h5.png" width="70%" />
+        <h1>HUYRAI H5 CONCEPT</h1>
+        <p>
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj<br />
+          hjrbv rfbf jhrbfjr 4jfbrjh jfbrj 4jfbrj <br />⭐⭐⭐⭐⭐
+        </p>
+        <button class="button btn1" onclick="document.location='product-huyraih5.html'">BUY NOW</button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <h1 class="deal_heading">THIS MONTH'S DEAL</h1>
+      <div class="wrapper_block">
+        <div class="deal1">
+          <img src="ferrari.png" />
+        </div>
+        <div class="deal2">
+          <h1>FERRARI SPIDER</h1>
+          <p>
+            0–100 km/h (62 mph) takes 3.0 seconds<br />
+            and the Spider is capable of a top speed<br />
+            of 320 km/h (199 mph)<br /><br />⭐⭐⭐⭐⭐&nbsp;
+            <span class="spider2">204 REVIEWS</span>
+          </p>
+          <h3 style="color: #4caf50">
+            R3 250 173.00 &nbsp;<span class="spider">R4 283 420.00</span>
+          </h3>
+          <button class="button btn1" onclick="document.location='product-ferrari2.html'">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="line_div4">
+      <br />
+      <h1 class="collect_heading4">
+        Over 500,000 Subscribers Love The Toy Shop
+      </h1>
+      <hr />
+      <br />
+      <h3 class="test-subhead">
+        Here's What The Toy Shop Customers Had To Say:
+      </h3>
+    </div>
+    <div class="testimonials">
+      <div class="test-items">
+        <img src="kylefinaltest2.jpg" width="80%" />
+      </div>
+      <div class="test-items">
+        <img src="chelseafinaltest2.jpg" width="80%" />
+      </div>
+      <div class="test-items">
+        <img src="shanefinaltest2.jpg" width="80%" />
+      </div>
+    </div>
+    <div class="new-hr">
+      <hr />
+    </div>
+    <div class="logos">
+      <img class="logo-img" src="bmw logo.jpg" width="10%" />
+      <img src="lambo logo.jpg" width="10%" />
+      <img src="ferrari logo.jpg" width="10%" />
+      <img src="mclaren logo.jpg" width="10%" />
+      <img src="maserati logo.jpg" width="10%" />
+      <img src="audi logo.jpg" width="10%" />
+      <img src="porsche logo.jpg" width="10%" />
+    </div>
+    <div class="new-hr2">
+      <hr />
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-items">
+        <div class="footer-logo">
+          <h1>EMAIL US TODAY</h1>
+          <img src="envelope.png" width="20" height="20">
+          <p>Pop Us an Email @:<br/>lesleylamont9589@gmail.com<br/>saecominnovation@gmail.com<br/>info@example.com</p>
+      </div>
+      <div class="footer-items">
+          <div class="footer-logo">
+            <h1>CALL US ON</h1>
+            <img src="smartphone.png" width="20" height="20">
+            <p>Call Us Today On:<br/>CapeTown:065-621-9100<br/>Johannesberg:073-522-1334<br/>International:555-857-6588</p>
+      </div>
+        <div class="footer-items">
+            <div class="footer-logo">
+              <h1>COME VISIT US</h1>
+              <img src="pin.png" width="20" height="20">
+              <p>Come See Us Today:<br/>18 Rue-Emmy Street<br/>Bellville<br/>Western Cape</p>
+            </div>
+        </div>
+    </div>
+<div class="first-footer">
+  <div class="icons">
+    <div class="logo1">
+      <img src="facebook.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="instagram.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="pinterest.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="twitter.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="whatsapp.png" width="30" height="30">
+    </div>
+  </div>
+  <div class="newsletter">
+    <img src="newsletter.png" width="60" height="60">
+    <p class="sign-par">SIGN UP TO<br/>OUR NEWSLETTER</p>
+    <form class="form1" id="form-sub" onsubmit="event.preventDefault(); subscribeAccount()">
+      <input type="text" name="emailad" id="emailad" placeholder="&nbsp;&nbsp;YOUR EMAIL HERE" required><br><br>
+      <input type="submit" value="SUBMIT">
+    </form> 
+  </div>
+</div>
+<div class="last-footer">
+  <div class="copy">
+    <p class="copy-par">©2020 Front End Development - The Toy Shop. All Rights Reserved. Designed by <span class="span-les">Lesley Lamont</span></p>
+  </div>
+  <div class="icons">
+    <div class="logo1">
+      <img src="paypal.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="visa.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="mastercard.png" width="30" height="30">
+    </div>
+    <div class="logo1">
+      <img src="bitcoin.png" width="30" height="30">
+    </div>
+  </div>
+</div>
+<script src="./assets/scripts/subscribe.js"></script>
+<script src="./assets/scripts/cart.js"></script>
+  </body>
+</html>

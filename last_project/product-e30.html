@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/stylesheets/productPAGE.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/cart.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product - BMW E30 M3</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="p_div">
+        <p>Exotic Toys For BIG Boys</p>
+      </div>
+      <!-- <div class="p_div2">
+        <img src="heart.png" class="heart" width="20" height="20" />
+        &nbsp;&nbsp;
+        <p>Wishlist</p>
+      </div> -->
+      <div class="register">
+        <img src="user.png" class="user" width="20" height="20" />
+        &nbsp;&nbsp;
+        <p><a id="reglink" href="register.html">Register</a></p>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="grid-container3">
+      <div class="grid-item3"><img src="key.png" width="50" height="50" /></div>
+      <div class="grid-item3"><a href="index.html">HOME</a></div>
+      <div class="grid-item3"><a href="products.html">SHOP</a></div>
+      <div class="grid-item3"><a href="about.html">ABOUT</a></div>
+      <div class="grid-item3"><a href="contact.html">CONTACT</a></div>
+      <div class="grid-item3">
+        <img
+          src="shopping-cart.png"
+          width="30"
+          height="30"
+          onclick="document.getElementById('popup').style.display='block'"
+        />
+      </div>
+    </div>
+
+    <div id="popup" class="modal">
+      <div class="modal-content animate">
+        <div class="imgcontainer">
+          <span
+            onclick="document.getElementById('popup').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+
+          <table class="container1" id="car_table">
+            <tr>
+              <th>Name</th>
+              <th>Price (R)</th>
+            </tr>
+
+            <!-- <tr>
+              <td>${car.name}</td>
+              <td>${car.price}</td>
+          </tr> -->
+          </table>
+          <h5>REFRESH AFTER EACH ACTION</h5>
+
+          <div class="container1" style="background-color: #f1f1f1">
+            <button
+              type="button"
+              class="cancelbtn"
+              onclick="document.location='checkout.html'"
+            >
+              CHECK OUT
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">Luxury Sport</div>
+      <div class="grid-item">Super Saloons</div>
+      <div class="grid-item">Supercars</div>
+      <div class="grid-item">Hypercars</div>
+    </div>
+
+    <div class="cover">
+      <img src="BMW-E30-EVO.jpg" width="920" height="650" />
+    </div>
+
+    <div class="product-description">
+      <h1 class="h-desc" style="text-decoration: underline">
+        PRODUCT DESCRIPTION
+      </h1>
+      <h2 id="car_name">BMW E30 M3 EVO2</h2>
+      <h2>ZAR</h2>
+      <p id="price"><b>814 250.00</b></p>
+      <p class="description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem.<br /><br />
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem.
+      </p>
+      <button class="button btn1" onclick="addCart3()">ADD TO CART</button>
+    </div>
+
+    <div class="first-footer">
+      <div class="icons">
+        <div class="logo1">
+          <img src="facebook.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="instagram.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="pinterest.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="twitter.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="whatsapp.png" width="30" height="30" />
+        </div>
+      </div>
+      <div class="newsletter">
+        <img src="newsletter.png" width="60" height="60" />
+        <p class="sign-par">SIGN UP TO<br />OUR NEWSLETTER</p>
+        <form
+          class="form1"
+          id="form-sub"
+          onsubmit="event.preventDefault(); subscribeAccount()"
+        >
+          <input
+            type="text"
+            name="emailad"
+            id="emailad"
+            placeholder="&nbsp;&nbsp;YOUR EMAIL HERE"
+            required
+          /><br /><br />
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
+    <div class="last-footer">
+      <div class="copy">
+        <p class="copy-par">
+          ©2020 Front End Development - The Toy Shop. All Rights Reserved.
+          Designed by <span class="span-les">Lesley Lamont</span>
+        </p>
+      </div>
+      <div class="icons">
+        <div class="logo1">
+          <img src="paypal.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="visa.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="mastercard.png" width="30" height="30" />
+        </div>
+        <div class="logo1">
+          <img src="bitcoin.png" width="30" height="30" />
+        </div>
+      </div>
+    </div>
+    <script src="./assets/scripts/products.js"></script>
+    <script src="./assets/scripts/cart.js"></script>
+    <script src="./assets/scripts/subscribe.js"></script>
+  </body>
+</html>
